@@ -1,0 +1,257 @@
+
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 1300px;
+
+}
+
+.head {
+    display: flex;
+    /* position: fixed;
+    top: 0px; */
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.head img {
+    display: inline-block;
+    size: 80px;
+    margin: 0 0;
+    width: 85px;
+    position: relative;
+    left: 38px;
+    top: 4px;
+}
+
+.navbar ul li {
+    list-style: none;
+    position: relative;
+    left: 700px;
+    font-size: 1rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar ul li a:hover {
+    border-bottom: 2px solid wheat;
+    /* background-color: white;
+    color: black;
+    border-radius: 5px; */
+
+}
+
+.navbar ul li a {
+    margin: 0px 39px;
+    text-decoration: none;
+    color: white;
+    padding: 11px 0px;
+    font-weight: 700%;
+}
+
+.menu {
+    color: white;
+    position: relative;
+    left: 730px;
+    top: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.422);
+    height: 35px;
+    border-radius: 25px;
+    padding: 3px;
+    size: 20px;
+
+}
+
+.middle {
+    display: flex;
+    position: relative;
+    top: 140px;
+    right: 160px;
+}
+
+.middle img {
+    size: 20px;
+    width: 250px;
+    padding: -1px 9px;
+    display: inline-block;
+    border: 3px solid white;
+    border-radius: 25px;
+    margin: 0px 9px;
+    cursor: pointer;
+}
+
+.middle img:hover {
+    position: relative;
+    bottom: 10px;
+}
+
+.middle p {
+    position: relative;
+    bottom: 30px;
+    left: 225px;
+    font-size: 40px;
+    padding: 0px 10px;
+    color: rgb(245, 237, 222);
+    /* font-family: 'Teko', sans-serif; */
+    font-weight: bold;
+}
+
+#art1 {
+    left: 280px;
+    /* font-family: 'Trochut', cursive; */
+    /* font-family: 'Tilt Warp', cursive; */
+    font-family: 'Abril Fatface', cursive;
+    text-shadow: 2px 2px black;
+}
+
+#art2 {
+    left: 450px;
+    /* font-family: 'Trochut', cursive; */
+    text-shadow: 2px 2px black;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.heading {
+    /* font-size: 20px; */
+    color: white;
+    position: relative;
+    left: 650px;
+    bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 680px;
+
+}
+
+
+.heading h1 {
+    font-size: 100px;
+    border-bottom: white dashed 2px;
+    margin: 20px 0px;
+    font-family: 'Tilt Warp', cursive;
+    text-shadow: 5px 5px black;
+
+}
+
+.heading p {
+    position: relative;
+    margin: 0px 0px;
+    font-size: 20px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+#speci{
+    display: flex;
+    margin: 0px 0px;
+    position: relative; 
+    top: 109px;
+    right: 8px;
+    /* left: 8px; */
+    background-color: rgb(255, 237, 203);
+    width: 1349px;
+    height: 200px;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: row;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    /* border: 1px solid black; */
+    align-items: center;
+    justify-content: center;
+}
+
+#r-symbol{
+    color: rgb(111, 110, 110);
+}
+.card p{
+    font-size: 20px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 0px;
+}
+
+.my{
+    margin: 0;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    position: relative;
+    right: 8px;
+    top: 93px;
+    width: 1349px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.my img{
+    height: 270px;
+    border-radius: 135px;
+    border: white solid 3px;
+    position: relative;
+    left: 180px;
+}
+.my h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px black;
+    /* text-decoration: ; */
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    padding:10px 30px ;
+}
+.mydisc{
+    display: flex;
+    position: relative;
+    left: 210px;
+    bottom: 100px;
+    flex-direction: column;
+}
+
+.my li{
+    margin: 2px;
+    position: relative;
+    right: 270px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+#meradis{
+    text-shadow: 2px 2px solid black;
+}
+
+footer{
+    /* display: flex; */
+    background: black;
+    /* width: 100%; */
+}
+
+.footer {
+    padding: 0px 0px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* left: 0; */
+    right: 8px;
+    /* bottom: 0px; */
+    top: 75px;
+    width: 1349px;
+    height: 35px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    justify-content: center;
+    /* font-size: ; */
+  }
